@@ -28,4 +28,7 @@ I recommend organizing in the structure of `scripts/` and `data/`
 * `git commit -m "[commit message]"`  --> commit the change to git
 * `git log` --> show all the history git commits
   * `git log --oneline`
+  
+## 7 Push local commmits to remote (Github)
+* `git push`
 
