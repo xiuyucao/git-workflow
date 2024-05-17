@@ -26,4 +26,6 @@ I recommend organizing in the structure of `scripts/` and `data/`
 * `git add [file]`  --> add the file to the staging area
   * `git add .` --> add all the files
 * `git commit -m "[commit message]"`  --> commit the change to git
+* `git log` --> show all the history git commits
+  * `git log --oneline`
 
