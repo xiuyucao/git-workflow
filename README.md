@@ -32,3 +32,24 @@ I recommend organizing in the structure of `scripts/` and `data/`
 ## 7 Push local commmits to remote (Github)
 * `git push`
 
+## 8 Branches
+To better organize the project, it is good practice to use branhces.
+
+Check the branches of the repository by doing `git branch`
+
+The main (some places called master) branch is the stable version of the code. We do not want to try new feature on this branch. That's why we need another branch. The basic idea is we create a branch which is an isolated developing environment and try new features we like. If satisfying, we merge the branch. This is also very helpful when 2 developers working on the project at the same time.
+
+* Check branches: `git branch`
+  * `git branch -a` - show all branches including remote ones
+* Create a branch: `git branch branch1`
+* Switch to a branch: `git checkout branch1`
+  * or can create and switch at the same time: `git checkout -b branch1`
+* Merging branches
+  * First switch to the branch we want to merge other branhes into
+  * `git merge branch1`
+* Delete a branch: first switch to another branch, then:
+  * `git branch -d branch1` - for merged branches
+  * `git branch -D branch1` - regardless of the merge status
+
+# APP. Other useful codes
+* `git reset --hard HEAD` --> resets the current branch to the latest commit (HEAD) 
