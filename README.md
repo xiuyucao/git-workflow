@@ -20,7 +20,7 @@ File --> New project --> existing --> choose your working directory
 I recommend organizing in the structure of `scripts/` and `data/`
 
 ## 6 Git
-![](data/git_chart.png){width=50%}
+![](images/git_chart.png)
 
 * `git status -s`  --> check the status
 * `git add [file]`  --> add the file to the staging area
