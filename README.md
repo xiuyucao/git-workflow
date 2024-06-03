@@ -25,6 +25,7 @@ I recommend organizing in the structure of `scripts/` and `data/`
 * `git status -s`  --> check the status
 * `git add [file]`  --> add the file to the staging area
   * `git add .` --> add all the files
+  * `git reset <file>` --> remove the added file from the stage
 * `git commit -m "[commit message]"`  --> commit the change to git
 * `git log` --> show all the history git commits
   * `git log --oneline`
@@ -51,5 +52,5 @@ The main (some places called master) branch is the stable version of the code. W
   * `git branch -d branch1` - for merged branches
   * `git branch -D branch1` - regardless of the merge status
 
-# APP. Other useful codes
+## APP. Other useful codes
 * `git reset --hard HEAD` --> resets the current branch to the latest commit (HEAD) 
