@@ -43,7 +43,7 @@ I recommend organizing in the structure of `scripts/` and `data/`
 * `git push`
 
 ## 8 Branches
-To better organize the project, it is good practice to use branhces.
+To better organize the project, it is good practice to use branches.
 
 Check the branches of the repository by doing `git branch`
 
