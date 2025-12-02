@@ -1,5 +1,14 @@
 # Git Workflow
 
+## 0 Configure Git
+Configure git by running the following commands in the terminal
+```
+git config --global user.name "John Smith"
+git config --global user.email "johnsmith@gmail.com"
+git config --global credential.helper "store --file ~/.git-credentails"
+```
+Git will save the credentails in the location you assign (i.e., "~/.git-credentails"). You can customize this location.
+
 ## 1 Create Repository in Github
 ## 2 Clone the repo to local
 * Basic terminal codes
