@@ -61,5 +61,5 @@ The main (some places called master) branch is the stable version of the code. W
   * `git branch -d branch1` - for merged branches
   * `git branch -D branch1` - regardless of the merge status
 
-## APP. Other useful codes
+## APP. Other useful commands
 * `git reset --hard HEAD` --> resets the current branch to the latest commit (HEAD) 
